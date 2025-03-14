@@ -1,0 +1,29 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    margin-bottom: 36px;
+}
+
+.navigation h2 {
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.navigation button {
+    /* box-sizing: border-box; */
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 17px 24px 17px 24px;
+
+
+}
+
+.container {
+    width: 69%;
+    max-width: 1440px;
+
+}
