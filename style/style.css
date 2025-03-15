@@ -125,7 +125,8 @@ h2 {
     padding: 48px;
 }
 
-.coding-title {
+.coding-title,
+.web-title {
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
@@ -134,23 +135,26 @@ h2 {
     text-align: left;
 }
 
-.development-main .coding-description {
+.development-main .coding-description,
+.modern-web .modern-web-text {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
 
-.development-main .coding-challenge-img {
+.development-main .coding-challenge-img,
+.modern-web .modern-web-img {
     width: 69%;
     max-width: 260px;
 }
 
-.development-main .coding-challenge-img img {
+.development-main .coding-challenge-img img,
+.modern-web .modern-web-img img {
     width: 100%;
 }
 
-.development-main .coding-challenge .btn-primary {
+.btn-primary {
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
@@ -162,4 +166,13 @@ h2 {
     padding: 12px 20px 12px 20px;
     margin-top: 32px;
 
+}
+
+.modern-web {
+    display: flex;
+    gap: 32px;
+    margin: 32px auto;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
 }
