@@ -3,7 +3,26 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Lato", sans-serif;
+    font-family: "Azeret Mono", sans-serif;
+}
+
+/* shared style  */
+h2 {
+
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
 }
 
 /* style navbar  */
@@ -80,4 +99,67 @@
     font-weight: 600;
     line-height: 23px;
     display: inline-block;
+}
+
+.development-container {
+    width: 69%;
+    max-width: 1440px;
+    margin: 78px auto 0px;
+}
+
+.development-main {
+    padding: 80px 97px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+
+}
+
+/* coding section  */
+.development-main .coding-challenge {
+    margin: 48px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 108px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+}
+
+.coding-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.development-main .coding-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.development-main .coding-challenge-img {
+    width: 69%;
+    max-width: 260px;
+}
+
+.development-main .coding-challenge-img img {
+    width: 100%;
+}
+
+.development-main .coding-challenge .btn-primary {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    margin-top: 32px;
+
 }
