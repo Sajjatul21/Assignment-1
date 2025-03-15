@@ -195,3 +195,61 @@ h2 {
     margin-top: 48px;
     padding: 32px;
 }
+
+/* target- style  */
+#target {
+    margin-top: 150px;
+}
+
+#target .target-item {
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.skill {
+    padding: 40px
+}
+
+.skill-img {
+    width: 56px;
+    height: 56px;
+}
+
+.skill-img img {
+    width: 100%;
+}
+
+.skill h5 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    padding: 24px 0 8px;
+
+}
+
+
+
+.btn {
+    border: none;
+    text-decoration: underline;
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+}
+
+.color-1 {
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+
+.color-2 {
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+}
+
+.color-3 {
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+}
